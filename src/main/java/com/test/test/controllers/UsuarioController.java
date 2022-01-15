@@ -8,6 +8,6 @@ public class UsuarioController {
 
     @RequestMapping(value = "prueba")
     public String prueba(){
-        return "prueba";
+        return "Sheer Heart Attack";
     }
 }
