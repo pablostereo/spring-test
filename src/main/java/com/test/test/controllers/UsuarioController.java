@@ -22,8 +22,8 @@ public class UsuarioController {
         return usuario;
     }
 
-    @RequestMapping(value = "usuario")
-    public List<Usuario> getUsuario() {
+    @RequestMapping(value = "usuarios")
+    public List<Usuario> getUsuarios() {
         List<Usuario> usuarios = new ArrayList<>();
 
         Usuario usuario = new Usuario();
@@ -36,26 +36,26 @@ public class UsuarioController {
 
         Usuario usuario2 = new Usuario();
         usuario2.setId(456L);
-        usuario2.setNombre("Pablo");
-        usuario2.setApellido("Morales");
-        usuario2.setEmail("pablo@mail.com");
-        usuario2.setTelefono("4751111");
+        usuario2.setNombre("Pedro");
+        usuario2.setApellido("Ramirez");
+        usuario2.setEmail("pedroo@mail.com");
+        usuario2.setTelefono("4752222");
         usuario2.setPassword("123456");
 
         Usuario usuario3 = new Usuario();
         usuario3.setId(789L);
-        usuario3.setNombre("Pablo");
+        usuario3.setNombre("Cesar");
         usuario3.setApellido("Morales");
-        usuario3.setEmail("pablo@mail.com");
-        usuario3.setTelefono("4751111");
+        usuario3.setEmail("cesar@mail.com");
+        usuario3.setTelefono("4871510");
         usuario3.setPassword("123456");
 
         Usuario usuario4 = new Usuario();
         usuario4.setId(741L);
-        usuario4.setNombre("Pablo");
-        usuario4.setApellido("Morales");
-        usuario4.setEmail("pablo@mail.com");
-        usuario4.setTelefono("4751111");
+        usuario4.setNombre("Maria");
+        usuario4.setApellido("Perez");
+        usuario4.setEmail("maria@mail.com");
+        usuario4.setTelefono("4568520");
         usuario4.setPassword("123456");
 
         usuarios.add(usuario);
