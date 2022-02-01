@@ -1,5 +1,6 @@
 package com.test.test.controllers;
 
+import com.test.test.DAO.UsuarioDAO;
 import com.test.test.models.Usuario;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
